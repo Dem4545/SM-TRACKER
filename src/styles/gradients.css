@@ -1,0 +1,16 @@
+/* Gradient backgrounds */
+.gradient-primary {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-dark-accent-blue dark:to-blue-700;
+}
+
+.gradient-success {
+  @apply bg-gradient-to-r from-green-500 to-green-600 dark:from-dark-accent-green dark:to-green-700;
+}
+
+.gradient-warning {
+  @apply bg-gradient-to-r from-yellow-500 to-yellow-600 dark:from-dark-accent-yellow dark:to-yellow-700;
+}
+
+.gradient-danger {
+  @apply bg-gradient-to-r from-red-500 to-red-600 dark:from-dark-accent-red dark:to-red-700;
+}
